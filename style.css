@@ -1,3 +1,183 @@
-a {
-    display:inline-block
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    background-color:dimgray;
+}
+/*This is the nav part of the website*/
+nav {
+    background-color:black;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: aliceblue;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+nav ul {
+    float:right;
+    margin-right: 20px
+}
+
+nav ul li {
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color:aliceblue;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a:hover {
+    background: purple;
+    transition: .5s;
+}
+
+/*This is the portfolio of the website with a picture of me*/
+.portfolio {
+    position: relative;
+}
+
+.portfolio img {
+    max-width:100%;
+    height: auto;
+}
+
+.portfolio-text {
+    position:absolute;
+    top: 25%;
+    color: purple;
+    padding: 20px;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/*This is the About Me part of the website.*/
+.main {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+
+#pic {
+    display: flex;
+}
+
+.main h1 {
+    font-size: 50px;
+}
+
+#pic img {
+    width: 575px;
+    height: 400px;
+}
+
+.main p{
+    text-align: left;
+    font-size: 25px;
+}
+#paragraph {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+
+/*This is the work part of the webpage.*/
+.lightning, .led, .dark, .moon, .surf {
+    display: inline-block;
+
+  }
+
+  .lightning img, .led img, .dark img, .moon img, .surf img{
+    width: 750px;
+    height: auto;
+  }
+
+  .lightning header {
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .led header {
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .dark header {
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .moon header {
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .surf header {
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+  }
+
+
+ /*footer*/
+
+.footer-contact {
+    background-color:black;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+
+h3 {
+    font-size: 50px;
+    color: aliceblue;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+}
+
+.contacts {
+
+color: aliceblue;
+}
+
+#contacts a:hover {
+    background: purple;
+    transition: .5s;
+}
+
+.footer-contact a {
+    color: aliceblue;
+    display: inline-block;
 }

@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+.portfolio-text {
+    font-size: 60px;
+}
+
+.main {
+display: block;
+text-align: left;
+}

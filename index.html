@@ -5,72 +5,83 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Advanced Selectors with CSS</title>
-        <link rel="stylesheet" href="reset.css" />
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" media="screen and (max-width: 800px)" href="tablet.css"/>
+        <link rel="stylesheet" media="screen and (max-width: 530px)" href="phone.css"/>
+
 </head>
 
     <Body>
-        <section class="header">
-
-            <h1>Ruben Sanchez</h1>
-
             <nav>
+                <label class="logo">Ruben Sanchez</label>
                 <ul>
-                  <a href="#">Home</a>
-                  <a href="#">Work</a>
-                  <a href="#">Contact Me</a>
-                  <a href="#">Resume</a>
+                  <li><a href= "#main">About Me</a></li>
+                  <li><a href="#work">Work</a></li>
+                  <li><a href="#footer">Contact Me</a></li>
                 </ul>
               </nav>
-              <section id="nav">
-                <img src="./images/nav-bar.jpg" alt="rain nav background" />
+            
+            <section class="portfolio">
+                <img src="./images/me.jpg">
+                <div class="portfolio-text">
+                    <h4>Portfolio</h4>
+                </div>
             </section>
-        </section>
 
-        <section class="main">
-            <h1>About me</h1>
-            <p></p>
-        </section>
+            <section class="main">
+                <div id="pic">
+                <h1 class="headings">ABOUT ME</h1>
+                <img src="images/nav-bar.jpg" alt="Neoncity">
+                <div id="paragraph">
+                <a name="main">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nostrum labore molestiae consequatur animi, est impedit deserunt fugiat quae perspiciatis aperiam provident quam unde eaque similique dolorum quibusdam corrupti aspernatur?</p>
+                    </div>
+                </div>
+                </a>
+            </section>
+            
+          <section class="work">
+                <a name="work"></a>
+                <section class="lightning">
+                  <header>Project Placeholder 1</header>
+                  <img src="./images/look-lightning.jpg" alt="two people sitting looking at the lightning" />
 
-        <section class="work">
-            <h1>Work</h1>
-                <section id="surf">
-                    <header>Surf Report</header>
-                    <img src="./images/surf-report.jpg" alt="surf report background" />
-                    <p>Mern Stack</p>
+                </section>
+                <section class="led">
+                  <header>Project Placeholder 2</header>
+                  <img src="./images/led-wall.jpg" alt="led wallpaper saying work harder" />
+
+                </section>
+                <section class="dark">
+                  <header>Project Placeholder 3</header>
+                  <img src="./images/lightning.jpg" alt="lightning dark theme" />
                 </section>
 
-                <section id="led">
-                    <header>Led Wall</header>
-                    <img src="./images/led-wall.jpg" alt="neon led background" />
-                    <p>Node/LoT</p>
+                <section class="moon">
+                  <header>Project Placeholder 4</header>
+                  <img src="./images/moon.png" alt="moons until full moon picture dark theme" />
                 </section>
-
-                <section id="calculator">
-                    <header>Calculator</header>
-                    <img src="./images/calculator.jpg" alt="calculator background" />
-                    <p>React/Javascript/CSS</p>
+                
+                <section class="surf">
+                  <header>Project Placeholder 5</header>
+                  <img src="./images/surf-report.jpg" alt="surfing in dark ocean"/>
                 </section>
-
-                <section id="puzzle">
-                    <header>Pastel Puzzles</header>
-                    <img src="./images/pastel-puzzle.jpg" alt="pastel puzzle background" />
-                    <p>Mern Stack</p>
+                
                 </section>
+            </section>
+        
 
-                <section id="run">
-                    <header>Run Buddy</header>
-                    <img src="./images/run-buddy.jpg" alt="run buddy background" />
-                    <p>HTML/CSS/<p>
-                </section>
-        </section>
 
-        <section class="footer">
+    
+        <section class="footer-contact">
+            <a name="footer">
             <h3>Contact Me</h3>
-                <a href="#">208-316-3027</a>
-                <a href="#">sanchezru39@gmail.com</a>
-                <a href="#">Github</a>
-                <a href="#">Spotify</a>
-        </section>
+                <ul>
+                    <li><a href="208-316-3027">208-316-3027</a></li>
+                    <li></li><a href="mailto:sanchezru39@gmail.com">sanchezru39@gmail.com</a></li>
+                    <li></li><a href="https://github.com/SuenoRuben">Github</a></li>
+                </ul>
+            </a>
+        </div>
     </Body>
 </html>

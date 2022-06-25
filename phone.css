@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+
+.portfolio-text {
+    font-size: 60px;
+}
+
+.main {
+display: block;
+text-align: left;
+}
+
+.footer-contact {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
